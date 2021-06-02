@@ -4,7 +4,7 @@ require "fileutils"
 
 module ImagesDownloader
   class FetchUrls
-    PATH = "tmp".freeze
+    PATH = "tmp/images".freeze
 
     def call(urls)
       urls.each { |url| download(url) if ok?(url) }
