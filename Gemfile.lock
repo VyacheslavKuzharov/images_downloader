@@ -55,7 +55,7 @@ DEPENDENCIES
   images_downloader!
   rake (~> 12.0)
   rspec (~> 3.0)
-  standard
+  standard (~> 1.0)
 
 BUNDLED WITH
    2.1.4

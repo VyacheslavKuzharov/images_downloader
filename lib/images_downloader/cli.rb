@@ -7,7 +7,7 @@ module ImagesDownloader
       @urls = UrlsCollector.new
     end
 
-    def call(io, argv)
+    def call(io)
       io.each_line do |line|
         ary = build_ary(line)
         urls.collect_from(ary)

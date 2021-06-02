@@ -2,4 +2,4 @@
 
 require 'images_downloader/cli'
 
-ImagesDownloader::CLI.new.call(STDIN, ARGV)
+ImagesDownloader::CLI.new.call(STDIN)
