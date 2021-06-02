@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'images_downloader/cli'
+
+ImagesDownloader::CLI.new.call(ARGV)
